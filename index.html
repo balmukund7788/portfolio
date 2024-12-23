@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce99eac8de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Balmukund</span><br>Chaudhary From Mumbai</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------about-------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Balmukund Chaudhary. I am 26 Years old.<br> 
+                    I completed my graduation in computer Engineering from Mumbai university.<br>
+                    I have good knowledge of python, html, css and JavaScript.<br>
+                    I have done my academic project on topic called Food Processing Application.<br>
+                    Currently I done 2 project which is x and y.<br>
+                    My strengths, I am a quick learner and a hard worker.<br>
+                    My hobbies are, I like to read and watch news and listen to music.<br>
+                    My short-term goal is to get a job in a reputed organization to improve my skills and knowledge and gain experience.<br>
+                    Coming to my family, we are 7 members, including me, my parents, and my two younger brother & two younger sister.
+                </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Develope User Friendly Website</li>
+                            <li><span>Full Stack Developer</span><br>Develope front end and Backend of the Website</li>
+                            <li><span>App Developer</span><br>building Android Apps using Android Studio</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br> Foundational expertise in software development</li>
+                            <li><span>Entry-Level Developer</span><br>Proficient in Python, JavaScript, SQL with a problem-solving approach and project experience.</li>
+                            <li><span>Aspiring Software Developer</span><br>Ready to contribute to innovative tech solutions.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2024</span><br>UPSC - prepare for Civil Service Examination</li>
+                            <li><span>2017 - 2021</span><br>BE Computer Engineering - University of Mumbai</li>
+                            <li><span>2015 - 2017</span><br>HSC - Maharashtra State Board</li>
+                            <li><span>2014 - 2015</span><br>SSC - Maharashtra State Board</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------Services-------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Skilled in blending aesthetics with functionality to create engaging, intuitive web interfaces. 
+                    Proficient in HTML, CSS, and JavaScript, with experience in responsive and mobile-friendly design.</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-server"></i>
+                <h2>Full Stack Developer</h2>
+                <p>Full Stack Developer with a passion for crafting seamless user experiences and scalable backend solutions. 
+                    Proficient in a range of technologies, including HTML, CSS, JavaScript, and SQL, ensuring robust, responsive web applications.</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-mobile-alt"></i>
+                <h2>App Developer</h2>
+                <p>Android App Developer focused on crafting intuitive, responsive mobile experiences. 
+                    Proficient in Android Studio, with a strong foundation in Java and XML, ensuring optimized and visually appealing applications.</p>
+                    <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- --------------------Portfolio----------------------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Food Processing Website</h3>
+                    <p>This web application is designed to help food suppliers efficiently connect with manufacturers to source food materials conveniently. 
+                        Key features include no middleman involvement, best prices, safe and secure transportation, and top recommendations.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Online Quiz Website</h3>
+                    <p>An online quiz website offers interactive quizzes across various topics, providing instant feedback and scores.
+                        It is perfect for testing knowledge, learning new concepts, and tracking progress in a fun, engaging way.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Charity App</h3>
+                    <p>This application provides a platform for both donors and receivers, where donors can easily donate toys, books, clothes, etc., 
+                        and receivers or orphanages can conveniently access these items, helping to improve their lives.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- -----------------------------------------------Contact----------------------------------------- -->
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>balmukundchaudhary7788@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91 7738637079</p>
+                <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Balmukund Chaudhary. All rights reserved.</p>
+    </div>
+ </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyvDFdJ7MBjiqhEyP_sTey9hOfCtu92FZ54TgiTv6wFRmJ59c_hMvGV6PUh-jNi5ne9xQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
